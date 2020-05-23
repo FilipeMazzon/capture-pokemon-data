@@ -1,0 +1,23 @@
+{
+  "name": "capture_pokemon_data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "database/database.js",
+  "scripts": {
+    "pokemons": "node pokemons.js",
+    "get_pokemons": "node getPokemons.js",
+    "get_special_abities": "node getSpecialAbilities.js",
+    "get_moves": "node getMoves.js",
+    "get_pokemon_specieis": "node getPokemonSpecies.js",
+    "get_egg_group": "node getEggGroups.js",
+    "start": "npm run get_pokemon_specieis && npm run get_moves && npm run get_egg_group && npm run get_pokemons && npm run get_special_abities && npm run pokemons"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "mongodb": "^3.5.7"
+  }
+}
