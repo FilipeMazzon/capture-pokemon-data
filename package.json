@@ -18,6 +18,6 @@
   "dependencies": {
     "axios": "^0.21.1",
     "dotenv": "^8.2.0",
-    "mongodb": "^3.5.7"
+    "mongodb": "^3.7.4"
   }
 }
